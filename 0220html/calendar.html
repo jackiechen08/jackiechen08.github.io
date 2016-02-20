@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="My Mobile Page Version 3 Template" />
+<meta name="keywords" content="mobile templates, mobile wordpress themes, mobile themes, my mobile page, premium css templates, premium wordpress themes" />
+
+
+
+<title>Beat Calendar</title>
+
+<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+
+<script src="jquery.mobile-1.1.0.min.js"> </script>
+
+
+<!-- Main CSS file -->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<!-- Google web font -->
+<link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
+<!-- jQuery file -->
+<script src="js/jquery.min.js"></script>
+<!-- FlexSlider -->
+<script src="js/jquery.flexslider.js"></script>
+<!-- Main effects files -->
+<script src="js/effects.js"></script>
+<!-- PrettyPhoto -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<!-- jQuery Tabs -->
+<script src="js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var $ = jQuery.noConflict();
+$(function() {
+$('#tabsmenu').tabify();
+$(".toggle_container").hide(); 
+$(".trigger").click(function(){
+	$(this).toggleClass("active").next().slideToggle("slow");
+	return false;
+});
+});
+</script>
+<!-- Hide Mobiles Browser Navigation Bar -->
+<script type="text/javascript">
+	window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+	// Hide the address bar!
+	window.scrollTo(0, 1);
+	}, 0);
+	});
+</script>
+</head>
+<body id="page">
+
+	<div id="pagecontainer">
+    
+    	<div id="header" class="black_gradient">
+            <a href="index.html" class="back_button black_button">Home</a>
+            <div class="page_title">TWBeatbox</div>
+            <a href="#" id="menu_open" class="black_button">Menu</a>
+            <a href="#" id="menu_close" class="black_button">Close</a>
+            <div class="clear"></div>
+        </div>
+        
+    	<div id="pages_nav">
+            <div class="icons_nav">
+                <div class="paginated"> <!--Remove this DIV if you want to remove the pagination-->
+                    <ul class="slides">
+						<li>
+							<a href="introduce.html" class="icon"><img src="images/icons/icon_book.png" alt="" title="" border="0" /><span>Introduce</span></a>
+                            <a href="learning.html" class="icon"><img src="images/icons/icon_learning1.png" alt="" title="" border="0" /><span>Class-1-</span></a>
+                            <a href="learning2.html" class="icon"><img src="images/icons/icon_learning2.png" alt="" title="" border="0" /><span>Class-2-</span></a>
+                            <a href="learning3.html" class="icon"><img src="images/icons/icon_learning3.png" alt="" title="" border="0" /><span>Class-3-</span></a>								
+                        </li>
+                        <li>
+						    <a href="videos.html" class="icon"><img src="images/icons/icon_u2.png" alt="" title="" border="0" /><span>Videos</span></a>
+							<a href="beatboxer.html" class="icon"><img src="images/icons/icon_mic.png" alt="" title="" border="0" /><span>Beatboxers</span></a>
+                            <a href="calendar.html" class="icon"><img src="images/icons/icon_calender.png" alt="" title="" border="0" /><span>Calendar</span></a>
+                            <a href="newapp.html" class="icon"><img src="images/icons/icon_newapp.png" alt="" title="" border="0" /><span>Coming soon~</span></a>
+                        </li>
+                    </ul>
+                </div>  <!--Remove this DIV if you want to remove the pagination-->
+
+          </div>
+      </div>
+        
+        
+   	<div class="content">
+        <h1><font color="red"><b>Beatbox活動日曆</b></font></h1>
+        <span class="subtitle_descr">Beat Calendar~</span>
+			
+	
+        <h2>移到文字上可以查看相關活動喔！</h2>
+		<p>若看不清楚十分抱歉</p>
+		<a href="https://www.google.com/calendar/embed?src=t6713ud8vremb3lqq6j0cd0t3k%40group.calendar.google.com&ctz=Asia/Taipei"target="_blank">→這是網路連結</a> 
+
+		<iframe src="https://www.google.com/calendar/embed?src=t6713ud8vremb3lqq6j0cd0t3k%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 0" width="575" height="600" frameborder="0" scrolling="no"></iframe>
+	<p>其實我本來是要做一個空白可自行填寫的日曆，</p>
+	<p>讓使用者自行根據想參加的活動來排，然後再存到Google 試算表裡</p>
+	<p>可是我試了滿久的還是做不出來，</p>
+	<p>所以我直接嵌入公開的google日曆</p>
+	<p>然後又因為若把這個日曆長寬設為100%的話會看不清楚，所以我下面又附了連結</p>
+	</div>
+ 
+        
+		
+        
+        <div class="clear"></div>
+		</div>
+        
+
+    	<div id="footer" class="black_gradient">
+            <a href="index.html" class="back_button black_button">Home</a>
+            <div class="page_title">BeatBox</div>
+            <a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" id="top" class="black_button">Top</a>
+            <div class="clear"></div>
+        </div>
+        
+        
+</div>
+   
+</body>
+</html>

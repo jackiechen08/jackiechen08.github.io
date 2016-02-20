@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" sizes="90x90" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image.png" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="My Mobile Page Version 3 Template" />
+<meta name="keywords" content="mobile templates, mobile wordpress themes, mobile themes, my mobile page, premium css templates, premium wordpress themes" />
+<title>BeatBox</title>
+
+<!-- Main CSS file -->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+<!-- jQuery file -->
+<script src="js/jquery.min.js"></script>
+<!-- FlexSlider -->
+<script src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+var $ = jQuery.noConflict();
+$(window).load(function() {
+	$('.icons_nav').flexslider({
+	animation: "slide",
+	directionNav: true, <!--Set this to false if you want to remove the arrows navigation of the menu-->
+	animationLoop: false,
+	controlNav: false, 
+	slideshow: false,
+	animationDuration: 300
+	});
+	$('.panels_slider').flexslider({
+	animation: "slide",
+	directionNav: false,
+	controlNav: true, 
+	animationLoop: false,
+	slideToStart: 1,
+	animationDuration: 300, 
+	slideshow: false
+	});
+});
+</script>
+<!-- Hide Mobiles Browser Navigation Bar -->
+<script type="text/javascript">
+	window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+	// Hide the address bar!
+	window.scrollTo(0, 1);
+	}, 0);
+	});
+</script>
+<!-- Hide on iphone top browser element | only on home page -->
+<script type="text/javascript">
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    $(window).load(function() {
+       $("body").removeClass("home");
+
+       // Check to see if the window is running in app mode. 
+       // If it is not, then it is running in full screen mode
+        if ( ("standalone" in window.navigator) && !window.navigator.standalone){
+            $("body").addClass("homeiphone_app");
+        } else {
+            $("body").addClass("homeiphone_full");
+        }
+    });
+}
+</script>
+</head>
+<body class="home">
+<div id="container">
+
+	<div class="logo"><img src="images/beatbox.png" height = "25%" width = "25%" alt="" title="" border="10%" ></div>
+
+    <div id="main_panels">
+        <div class="panels_slider">
+        <ul class="slides">
+            <li>
+                <img src="images/swissbeat.png" width = "100%" alt="" title="" border="0" />
+            </li>
+            <li>
+                <img src="images/power.png" width = "100%" alt="" title="" border="0" />
+            </li>
+            <li>
+                <img src="images/panel3.png" width = "100%" alt="" title="" border="0" />
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <div id="bottom_nav">
+        <div class="icons_nav">
+				<div class="paginated"> <!--Remove this DIV if you want to remove the pagination-->
+                    <ul class="slides">
+                        <li>
+							<a href="introduce.html" class="icon"><img src="images/icons/icon_book.png" alt="" title="" border="0" /><span>Introduce</span></a>
+                            <a href="learning.html" class="icon"><img src="images/icons/icon_learning1.png" alt="" title="" border="0" /><span>Class-1-</span></a>
+                            <a href="learning2.html" class="icon"><img src="images/icons/icon_learning2.png" alt="" title="" border="0" /><span>Class-2-</span></a>
+                            <a href="learning3.html" class="icon"><img src="images/icons/icon_learning3.png" alt="" title="" border="0" /><span>Class-3-</span></a>								
+                        </li>
+                        <li>
+						    <a href="videos.html" class="icon"><img src="images/icons/icon_u2.png" alt="" title="" border="0" /><span>Videos</span></a>
+							<a href="beatboxer.html" class="icon"><img src="images/icons/icon_mic.png" alt="" title="" border="0" /><span>Beatboxers</span></a>
+                            <a href="calendar.html" class="icon"><img src="images/icons/icon_calender.png" alt="" title="" border="0" /><span>Calendar</span></a>
+                            <a href="newapp.html" class="icon"><img src="images/icons/icon_newapp.png" alt="" title="" border="0" /><span>Coming soon~</span></a>
+                        </li>
+                    </ul>
+                </div>  <!--Remove this DIV if you want to remove the pagination-->
+
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

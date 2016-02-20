@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="My Mobile Page Version 3 Template" />
+<meta name="keywords" content="mobile templates, mobile wordpress themes, mobile themes, my mobile page, premium css templates, premium wordpress themes" />
+
+
+
+<title>BeatBox Class1</title>
+
+<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+
+<script src="jquery.mobile-1.1.0.min.js"> </script>
+
+
+<!-- Main CSS file -->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<!-- Google web font -->
+<link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
+<!-- jQuery file -->
+<script src="js/jquery.min.js"></script>
+<!-- FlexSlider -->
+<script src="js/jquery.flexslider.js"></script>
+<!-- Main effects files -->
+<script src="js/effects.js"></script>
+<!-- PrettyPhoto -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<!-- jQuery Tabs -->
+<script src="js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var $ = jQuery.noConflict();
+$(function() {
+$('#tabsmenu').tabify();
+$(".toggle_container").hide(); 
+$(".trigger").click(function(){
+	$(this).toggleClass("active").next().slideToggle("slow");
+	return false;
+});
+});
+</script>
+<!-- Hide Mobiles Browser Navigation Bar -->
+<script type="text/javascript">
+	window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+	// Hide the address bar!
+	window.scrollTo(0, 1);
+	}, 0);
+	});
+</script>
+</head>
+<body id="page">
+
+	<div id="pagecontainer">
+    
+    	<div id="header" class="black_gradient">
+            <a href="index.html" class="back_button black_button">Home</a>
+            <div class="page_title">TWBeatbox</div>
+            <a href="#" id="menu_open" class="black_button">Menu</a>
+            <a href="#" id="menu_close" class="black_button">Close</a>
+            <div class="clear"></div>
+        </div>
+        
+    	<div id="pages_nav">
+            <div class="icons_nav">
+                <div class="paginated"> <!--Remove this DIV if you want to remove the pagination-->
+                    <ul class="slides">
+                                                 <li>
+							<a href="introduce.html" class="icon"><img src="images/icons/icon_book.png" alt="" title="" border="0" /><span>Introduce</span></a>
+                            <a href="learning.html" class="icon"><img src="images/icons/icon_learning1.png" alt="" title="" border="0" /><span>Class-1-</span></a>
+                            <a href="learning2.html" class="icon"><img src="images/icons/icon_learning2.png" alt="" title="" border="0" /><span>Class-2-</span></a>
+                            <a href="learning3.html" class="icon"><img src="images/icons/icon_learning3.png" alt="" title="" border="0" /><span>Class-3-</span></a>								
+                        </li>
+                        <li>
+						    <a href="videos.html" class="icon"><img src="images/icons/icon_u2.png" alt="" title="" border="0" /><span>Videos</span></a>
+							<a href="beatboxer.html" class="icon"><img src="images/icons/icon_mic.png" alt="" title="" border="0" /><span>Beatboxers</span></a>
+                            <a href="calendar.html" class="icon"><img src="images/icons/icon_calender.png" alt="" title="" border="0" /><span>Calendar</span></a>
+                            <a href="newapp.html" class="icon"><img src="images/icons/icon_newapp.png" alt="" title="" border="0" /><span>Coming soon~</span></a>
+                        </li>
+                    </ul>
+                </div>  <!--Remove this DIV if you want to remove the pagination-->
+
+          </div>
+      </div>
+        
+        
+   	<div class="content">
+        <h1><font color="red"><b>教學活動</b></font></h1>
+        <span class="subtitle_descr">近期教學(一到兩個月內)</span>
+			
+	
+        <h2>【Beatbox寒假診療室】<span class="tag">小冰~</span></h2>
+		<a href="images/小冰診療.jpg" rel="prettyPhoto[gallery]"><img src="images/小冰診療.jpg" align="center"  height = "100%" width = "100%" border="0" class="rounded" /></a>
+        <img src="images/shadow.jpg" align="center" height = "100%" width = "100%" border="0" class="shadow" />
+		<ul id="tabsmenu" class="tabsmenu">
+			<li class="active"><a href="#tab1_1">介紹~</a></li>
+			<li><a href="#tab1_2">教學課程</a></li>
+			<li><a href="#tab1_3">教師簡介</a></li>
+		</ul>
+		<div id="tab1_1" class="tabcontent">  <!--第一頁-->
+			<h3> <b>教師：小冰(蘇彥菁)</b></h3>
+			<p>小冰首次!!!!寒假要來幫大家診療啦!!!!</p><p>你想知道現在Beatbox的趨勢在哪裡嗎?</p><p>你想知道當一個全方位的Beatboxer需要甚麼?</p><p>還有小冰的Loopstation課程絕對不能錯過的吧!!!!!</p><p>
+請大家多多掛號！！</p>
+        <hr size="3" align="center" noshade width="95%" color="000000"> <!--分隔線 -->
+			<h3> <b>地址、時間&費用</b></h3>		
+			<pre>日期:
+台中:2/3(二)/台中市北屯區北屯路 533巷186號
+台北:2/9(一)/永和區勵行街11號3樓
+
+時段以及現場報名費用:
+早上9:00-12:00 嘴破門診室 1000/3小時
+下午1:00-4:00 Loopstation隔離室 1700/3小時
+晚上6:00-9:00 口腔急診室 1200/3小時 </pre>
+
+		</div>
+		<div id="tab1_2" class="tabcontent">  <!--第二頁-->
+			<h3><b>1.嘴破門診室(Beatbox初階教學)</b></h3>
+			<pre>
+				<p>  A.基本三音，一次鞏固沒煩惱</p><p>  B.風格辨認，一次搞定不混淆</p><p>  C.平日練習，循序漸進沒煩惱</p>
+			<h3><b>2.Loopstation隔離室(Loopstation)</b></h3>
+				<p>  A.個人盲點研討，疑難排解</p><p>  B.個人風格思考，音樂啓發</p><p>  C.聽覺思考探討，另類教學</p>
+			<h3><b>3.口腔急診室(Beatbox進階教學)</b></h3>
+				<p>  A.機器操作教學問答</p><p>  B.音樂性的分析詮釋</p><p>  C.和聲教學修正進行</p>
+			</pre>
+		</div>
+		
+         <div id="tab1_3" class="tabcontent"> <!--第三頁-->
+			<h3><b>教師簡介</b></h3>
+			<font size="5">
+			<b>蘇彥菁 簡歷</b>
+			<pre>
+1.台北藝術大學音樂系聲樂組。
+<br></br>
+2.擅長鋼琴、胡琴、詞曲創作、Beatbox口技、
+  DJ及編曲
+<br></br>
+3.2011年以純beatbox編曲拿下第五屆
+   <font color="red"><b>“台灣大哥大myfone行動創作奬”</b></font>
+   原創歌曲鈴聲組首獎。
+   <br></br>
+4.多次受邀為相聲瓦舍“惡鄰依依(2010)”、
+   “東廠僅一位(2011)”、“迷香(2013)”，擔任
+   <font color="red"><b>音樂編曲及製作人。</b></font>
+   <br></br>
+5.2011年受邀於<font color="red"><b>周杰倫</b></font>驚嘆號專輯簽唱會表演beatbox
+<br></br>
+6.近幾年常受邀於各大電視節目及廣播節目表演。
+<br></br>
+7.現為大學生了沒固定班底、甘霖老蘇及
+  哥哥妹妹樂團成員。
+			</pre>
+		</font>
+		<div class="videocontainer">
+		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Y_hgi0kt3-w" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<img src="images/shadow.jpg" alt="" title="" border="0" class="shadow" />
+		
+		</div>
+
+
+	</div>
+
+        
+		
+        
+        <div class="clear"></div>
+		</div>
+        
+
+    	<div id="footer" class="black_gradient">
+            <a href="index.html" class="back_button black_button">Home</a>
+            <div class="page_title">BeatBox</div>
+            <a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" id="top" class="black_button">Top</a>
+            <div class="clear"></div>
+        </div>
+        
+        
+</div>
+   
+</body>
+</html>
