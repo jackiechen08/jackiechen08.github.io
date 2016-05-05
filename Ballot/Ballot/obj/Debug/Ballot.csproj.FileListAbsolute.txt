@@ -1,0 +1,9 @@
+D:\程式\Ballot\Ballot\bin\Debug\Ballot.exe.config
+D:\程式\Ballot\Ballot\obj\Debug\Ballot.MainForm.resources
+D:\程式\Ballot\Ballot\obj\Debug\Ballot.Properties.Resources.resources
+D:\程式\Ballot\Ballot\obj\Debug\Ballot.csproj.GenerateResource.Cache
+D:\程式\Ballot\Ballot\bin\Debug\Ballot.exe
+D:\程式\Ballot\Ballot\bin\Debug\Ballot.pdb
+D:\程式\Ballot\Ballot\obj\Debug\Ballot.exe
+D:\程式\Ballot\Ballot\obj\Debug\Ballot.pdb
+D:\程式\Ballot\Ballot\obj\Debug\Ballot.csprojResolveAssemblyReference.cache
