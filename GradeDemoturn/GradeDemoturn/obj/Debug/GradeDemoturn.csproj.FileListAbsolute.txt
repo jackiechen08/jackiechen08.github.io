@@ -1,0 +1,9 @@
+D:\程式\GradeDemoturn\GradeDemoturn\bin\Debug\GradeDemoturn.exe.config
+D:\程式\GradeDemoturn\GradeDemoturn\bin\Debug\GradeDemoturn.exe
+D:\程式\GradeDemoturn\GradeDemoturn\bin\Debug\GradeDemoturn.pdb
+D:\程式\GradeDemoturn\GradeDemoturn\obj\Debug\GradeDemoturn.csprojResolveAssemblyReference.cache
+D:\程式\GradeDemoturn\GradeDemoturn\obj\Debug\GradeDemoturn.MainForm.resources
+D:\程式\GradeDemoturn\GradeDemoturn\obj\Debug\GradeDemoturn.Properties.Resources.resources
+D:\程式\GradeDemoturn\GradeDemoturn\obj\Debug\GradeDemoturn.csproj.GenerateResource.Cache
+D:\程式\GradeDemoturn\GradeDemoturn\obj\Debug\GradeDemoturn.exe
+D:\程式\GradeDemoturn\GradeDemoturn\obj\Debug\GradeDemoturn.pdb
