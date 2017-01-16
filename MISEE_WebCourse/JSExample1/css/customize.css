@@ -1,0 +1,200 @@
+body {
+	background-image:url(../picture/paper.jpg);
+}
+nav{
+	height: 48px; 
+	line-height: 44px;
+}
+/* top nav */
+ul.topnav {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	top: 0;
+  	overflow: hidden;
+  	background-color: #80ff80;
+  	box-shadow: 0px 0px 20px 0 rgba(0,0,0,0.2);
+  	width: 100%;
+  	position: fixed;
+  	z-index: 1;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+  	display: inline-block;
+  	color: #000;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	transition: 0.6s;
+  	font-size: 17px;
+}
+
+ul.topnav li a:hover {
+	background-color: #00cc00;
+	color: #fff;
+}
+/* side nav content */
+
+div.sidenav img {
+    border-radius: 50%;
+    width: 70%;
+}
+div.sidenav .side-content {
+	margin: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+div.side-content ul li {
+	margin-bottom: 10px;
+}
+li span.side-title {
+	font-size: 0px;
+	color: #66ffff;
+	transition: 0.5s;
+}
+li span.side-content {
+	font-size: 0px;
+	color: rgba(255,255,255,0.9);
+	transition: 0.5s;
+}
+/* side navigation */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 51,0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    text-align: center;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* side navigation dropdown */
+a.accordion {
+	color: #1a53ff;
+	background: #ffff66;
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	transition: 0.6s;
+	box-shadow: 0px 0px 23px 0 rgba(0,0,0,0.4);
+}
+a.accordion.active {
+	color: #fff;
+	background: #0080ff;
+	box-shadow: 0px 0px 0px 0 rgba(0,0,0,0.4);
+	
+}
+div.dropdown {
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 5px 0;
+	padding: 8px;
+	border-radius: 10px;
+	width: 500px;
+	overflow: hidden;
+    transition: 0.4s linear;
+    max-height: 0;
+    opacity: 0;
+}
+div.dropdown.show {
+    max-height: 160px;
+    opacity: 1;
+}
+/* slide */
+.classical-recipe {
+	margin-top: 80px;
+	position: relative;
+	text-align: center;
+	
+}
+.mySlides {
+	display:none
+}
+.slideshow-container {
+	border-radius: 10px;
+  	width: 600px;
+  	height: 370px;
+  	overflow: hidden;
+  	position: relative;
+  	margin: auto;
+}
+.slide-dot {
+	position: relative;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+/* recipe */
+.recipe-card {
+	position: relative;
+	height: 275px;
+	width: 80%;
+	margin: 20px 10%;
+	padding: 10px 0 10px 7%;
+	border-radius: 40px;
+	background: rgba(255, 153, 51, 0.7);
+}
+.pull-left {
+	overflow: hidden;
+	width: 400px;
+	height: 247px;
+	margin: 0 10px 0 0;
+	border-radius: 10px;
+}
+.pull-left img {
+	width: 100%;
+}
